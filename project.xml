@@ -26,109 +26,24 @@
   <groupId>maven</groupId>
   <currentVersion>1.0</currentVersion>
   <organization>
-    <name>Apache Software Foundation</name>
-    <url>http://www.apache.org/</url>
-    <logo>http://maven.apache.org/images/apache-maven-project.png</logo>
+    <name>idega Software</name>
+    <url>http://www.idega.com/</url>
   </organization>
-  <inceptionYear>2001</inceptionYear>
-  <package>org.apache.maven</package>
-  <logo>http://maven.apache.org/images/maven.gif</logo>
+  <inceptionYear>2004</inceptionYear>
+  <package>com.idega.maven</package>
 
-  <issueTrackingUrl>http://jira.codehaus.org/browse/MAVEN</issueTrackingUrl>
-  <siteAddress>maven.apache.org</siteAddress>
-  <siteDirectory>/www/maven.apache.org/reference/plugins/optional/</siteDirectory>
-  <distributionSite>www.apache.org</distributionSite>
-  <distributionDirectory>/www/www.apache.org/dist/java-repository/</distributionDirectory>
-
-  <mailingLists>
-    <mailingList>
-      <name>Maven User List</name>
-      <subscribe>users-subscribe@maven.apache.org</subscribe>
-      <unsubscribe>users-unsubscribe@maven.apache.org</unsubscribe>
-      <archive>http://nagoya.apache.org/eyebrowse/SummarizeList?listName=users@maven.apache.org</archive>
-    </mailingList>
-    <mailingList>
-      <name>Maven Developer List</name>
-      <subscribe>dev-subscribe@maven.apache.org</subscribe>
-      <unsubscribe>dev-unsubscribe@maven.apache.org</unsubscribe>
-      <archive>http://nagoya.apache.org/eyebrowse/SummarizeList?listName=dev@maven.apache.org</archive>
-    </mailingList>
-  </mailingLists>
-
-  <repository>
-    <connection>scm:cvs:pserver:anoncvs@cvs.apache.org:/home/cvspublic:maven-plugins/</connection>
-    <url>http://cvs.apache.org/viewcvs/maven-plugins/</url>
-  </repository>
+  <issueTrackingUrl>http://issues.idega.com</issueTrackingUrl>
   
   <developers>
-    <developer>
-      <name>dIon Gillard</name>
-      <id>dion</id>
-      <email>dion@multitask.com.au</email>
-      <organization>Multitask Consulting</organization>
-      <roles>
-        <role>Java Developer</role>
-      </roles>
-      <timezone>+10</timezone>
-    </developer>
-    <developer>
-      <name>Vincent Massol</name>
-      <id>vmassol</id>
-      <email>vmassol@pivolis.com</email>
-      <organization>Pivolis</organization>
-      <roles>
-        <role>Java Developer</role>
-      </roles>
-      <timezone>+1</timezone>
-    </developer>
-    <developer>
-      <name>Eric Pugh</name>
-      <id>epugh</id>
-      <email>epugh@upstate.com</email>
-      <organization>Upstate</organization>
-      <roles>
-        <role>Java Developer</role>
-      </roles>
-    </developer>    
-    <developer>
-      <name>James Strachan</name>
-      <id>jstrachan</id>
-      <email>james_strachan@yahoo.co.uk</email>
-      <organization>Spiritsoft</organization>
-      <roles>
-        <role>Java Developer</role>
-      </roles>
-    </developer>
-    <developer>
-      <name>Emmanuel Venisse</name>
-      <id>evenisse</id>
-      <email>emmanuel@venisse.net</email>
-      <organization/>
-      <roles>
-        <role>Java Developer</role>
-      </roles>
-      <timezone>+1</timezone>
-    </developer>
-    <developer>
-      <name>Jason van Zyl</name>
-      <id>jvanzyl</id>
-      <email>jason@zenplex.com</email>
-      <organization>Zenplex</organization>
-      <roles>
-        <role>Architect</role>
-        <role>Release Manager</role>
-      </roles>
-    </developer>
-    <developer>
-      <name>Brett Porter</name>
-      <id>brett</id>
-      <email>brett@apache.org</email>
-      <organization>f2 network</organization>
-      <roles>
-        <role>Developer</role>
-      </roles>
-      <timezone>+10</timezone>
-    </developer>
+        <developer>
+            <name>Tryggvi Larusson</name>
+            <id>tryggvil</id>
+            <email>tryggvi@idega.is</email>
+            <organization>idega software</organization>
+            <roles>
+            		Java Developer
+            	</roles>
+        </developer>
   </developers>
 
   <build>
