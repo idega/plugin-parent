@@ -47,7 +47,7 @@
   </developers>
 
   <build>
-    <sourceDirectory>src/main</sourceDirectory>
+    <sourceDirectory>src/java</sourceDirectory>
     <unitTestSourceDirectory>src/test</unitTestSourceDirectory>
 
     <unitTest>
